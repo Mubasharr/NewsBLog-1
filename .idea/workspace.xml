@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f668221-384f-4236-a29f-69a87dae5f94" name="Default Changelist" comment="" />
+    <list default="true" id="2f668221-384f-4236-a29f-69a87dae5f94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/NewsBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewsBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -65,9 +70,13 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="442" y="208" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1366.728@0.40.1366.728" timestamp="1580231065180" />
-    <state x="379" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1580729252358">
+    <state x="463" y="160" key="FileChooserDialogImpl" timestamp="1580743130873">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="379" y="229" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1580729252358" />
+    <state x="463" y="160" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1580743130873" />
+    <state x="379" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1580743163885">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="379" y="229" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1580743163885" />
   </component>
 </project>
