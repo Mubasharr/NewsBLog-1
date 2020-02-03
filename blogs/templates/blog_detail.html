@@ -1,0 +1,37 @@
+{% extends 'basec.html' %}
+{% load static %}
+{% block content %}
+<div class="main-wrapper">
+    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">{{ blog.title }}</h2>
+				    <div class="meta mb-3"><span class="date">Published 3 months ago</span><span class="time">5 min read</span><span class="comment"><a href="#">4 comments</a></span></div>
+			    </header>
+
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+				        <a href="https://made4dev.com">
+                            <img class="img-fluid" src="{{ blog.image_url }}" alt="image">
+                        </a>
+<!--				        <figcaption class="mt-2 text-center image-caption">Image Credit: -->
+<!--                            <a href="https://made4dev.com?ref=devblog" target="_blank">made4dev.com (Premium Programming T-shirts)</a>-->
+<!--                        </figcaption>-->
+				    </figure>
+				    <p>{{ blog.description }}</p>
+
+			    </div>
+
+		    </div><!--//container-->
+	    </article>
+
+
+    <footer class="footer text-center py-2 theme-bg-dark">
+        <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by Mubi</a> for developers</small>
+
+    </footer>
+
+</div><!--//main-wrapper-->
+
+
+{% endblock %}

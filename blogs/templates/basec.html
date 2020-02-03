@@ -34,7 +34,9 @@
 				<div class="profile-section pt-3 pt-lg-0">
 <!--				    <img class="profile-image mb-3 rounded-circle mx-auto" src="{% static 'assets/images/profile.png' %}" alt="image" >-->
 
-					<div class="bio mb-3">Hi, my name is Mubashar Hussain. Briefly introduce yourself here. You can also provide a link to the about page.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<div class="bio mb-3">Hi, my name is Mubashar Hussain. Briefly introduce yourself here. You can
+                        also provide a link to the about page.<br>
+                        <a href="{% url 'about_us' %}">Find out more about me</a></div><!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
 			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
@@ -49,11 +51,11 @@
 					<li class="nav-item active">
 					    <a class="nav-link" href="{% url 'home' %}"><i class="fas fa-home fa-fw mr-2"></i>Home <span class="sr-only">(current)</span></a>
 					</li>
+<!--					<li class="nav-item">-->
+<!--					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Post</a>-->
+<!--					</li>-->
 					<li class="nav-item">
-					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Post</a>
-					</li>
-					<li class="nav-item">
-					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+					    <a class="nav-link" href="{% url 'about_us' %}"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
 					</li>
 				</ul>
 
