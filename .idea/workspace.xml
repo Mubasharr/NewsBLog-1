@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f668221-384f-4236-a29f-69a87dae5f94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/NewsBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewsBlog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
