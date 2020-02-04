@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f668221-384f-4236-a29f-69a87dae5f94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blogs/migrations/0002_categories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/migrations/0003_newsblog_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/migrations/0004_auto_20200204_2244.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,17 +26,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1X1xZX6apjWJRxqT1Tn3UxZjtHY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PyShop" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -64,18 +71,21 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="442" y="208" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580231065180">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="442" y="208" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1366.728@0.40.1366.728" timestamp="1580231065180" />
-    <state x="463" y="160" key="FileChooserDialogImpl" timestamp="1580743130873">
+    <state x="463" y="160" key="FileChooserDialogImpl" timestamp="1580835700758">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="463" y="160" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1580743130873" />
-    <state x="379" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1580743163885">
+    <state x="463" y="160" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1580835700758" />
+    <state x="379" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1580811384175">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="379" y="229" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1580743163885" />
+    <state x="379" y="229" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1580811384175" />
   </component>
 </project>
