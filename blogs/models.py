@@ -1,5 +1,10 @@
 from django.db import models
 from django.utils import timezone
+from django.utils.html import format_html
+from django import forms
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
 
 
 class Categories(models.Model):
@@ -7,13 +12,8 @@ class Categories(models.Model):
     description = models.TextField(null=True, blank=True)
     date_created = models.DateTimeField(auto_now_add=True, null=True)
 
-    class Mete:
-        ordering = ('name',)
-        reverse_name = 'category'
-        reverse_name_plural = 'categories'
-
     def __str__(self):
-        return  self.name
+        return self.name
 
 
 class NewsBlog(models.Model):
@@ -23,6 +23,50 @@ class NewsBlog(models.Model):
     description = models.TextField(null=True, blank=True)
     date_created = models.DateTimeField(auto_now_add=True, null=True)
 
+    def get_name(self, obj):
+        try:
+            return obj.category.name
+        except:
+            return 'Null'
+
+    def image_tag(self):
+        return format_html('<img src="{}"  width="100"/>'.format(self.image_url))
+    image_tag.short_description = 'Image'
+
     def snippet(self):
         return self.description[:50] + '-----'
+
+
+class LoginForm(models.Model):
+    username = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control'}))
+    password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+
+
+class RegisterForm(models.Model):
+    username = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control'}))
+    email = forms.EmailField(widget=forms.EmailInput(attrs={'class': 'form-control'}))
+    password_first = forms.CharField(label="Password", widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+    password_again = forms.CharField(label="Confirm password", widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+
+    def clean(self):
+        cleaned_data = self.cleaned_data
+        password_one = self.cleaned_data.get('password_first')
+        password_two = self.cleaned_data.get('password_again')
+        if password_one != password_two:
+            raise forms.ValidationError("Passwords don't match")
+        return cleaned_data
+
+    def clean_username(self):
+        username = self.cleaned_data.get('username')
+        qs = User.objects.filter(username=username)
+        if qs.exists():
+            raise forms.ValidationError("The username you've chosen is unavailable.")
+        return username
+
+    def clean_email(self):
+        email_address = self.cleaned_data.get('email')
+        qs = User.objects.filter(email=email_address)
+        if qs.exists():
+            raise forms.ValidationError("The email address you've chosen is already registered.")
+        return email_address
 
