@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blogs.apps.NewsblogsConfig'
+    'blogs.apps.NewsblogsConfig',
+    'graphene_django'
 ]
 
 MIDDLEWARE = [

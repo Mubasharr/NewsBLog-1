@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f668221-384f-4236-a29f-69a87dae5f94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blogs/migrations/0005_remove_newsblog_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/migrations/0006_newsblog_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/static/assets/css/loginstyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/static/assets/images/loginbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsblog/schema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/templates/basec.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/templates/basec.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsblog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -96,9 +89,9 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="463" y="160" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1582115767359" />
-    <state x="379" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1582543276499">
+    <state x="379" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1582624672316">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="379" y="229" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1582543276499" />
+    <state x="379" y="229" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1582624672316" />
   </component>
 </project>
